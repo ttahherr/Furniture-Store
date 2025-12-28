@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products — Furniture Store</title>
+    <link rel="stylesheet" href="Product.css" />
+    <script src="./Index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="links">
+                <a href="./Home.HTML">Home</a>
+                <a href="./Product.HTML">Products</a>
+                <a href="#footer">Contact us</a>
+                <a href="">Blog</a>
+            </div>
+            <div id="btn">
+                <a href="./Sign-in.html">Log in</a>
+                <a href="./Checkout.html">
+                    <img src="./Assetes/Cart.svg" alt="Shopping Cart">
+                </a>
+            </div>
+        </nav>
+        <div id="headerContent">
+            <h1>Discover Our Premium Furniture Collection</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-banner">
+                <img src="./Assetes/Loginimg.jpg" alt="Premium Furniture Collection">
+            </div>
+        </section>
+
+        <!-- Trendy Products Section -->
+        <section class="product-section" id="trendy">
+            <header class="section-header">
+                <h2>Trendy Products</h2>
+                <div class="controls">
+                    <button class="prev" aria-label="Previous products">‹</button>
+                    <button class="next" aria-label="Next products">›</button>
+                </div>
+            </header>
+            <div class="cards-slider">
+                <div class="cardContainer" role="list">
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Light1.jpg"/>
+                        </div>
+                        <div class="card-body">
+                            <h3>Premium Light 1</h3>
+                            <div class="meta">
+                                <p class="price">$149</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur1.jpg" alt="Modern Sofa - Comfortable seating" />
+                        </div>
+                        <div class="card-body">
+                            <h3 id="zz">Modern Furniture 1</h3>
+                            <div class="meta">
+                                <p class="price">$499</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur5.jpg" alt="Dining Table - Elegant dining furniture" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 5</h3>
+                            <div class="meta">
+                                <p class="price">$299</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/BookStand.png" alt="Bookshelf - Storage solution" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Book Stand</h3>
+                            <div class="meta">
+                                <p class="price">$219</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur6.jpg" alt="Floor Lamp - Modern lighting" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 6</h3>
+                            <div class="meta">
+                                <p class="price">$89</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Most Popular Section -->
+        <section class="product-section" id="popular">
+            <header class="section-header">
+                <h2>Most Popular</h2>
+                <div class="controls">
+                    <button class="prev" aria-label="Previous products">‹</button>
+                    <button class="next" aria-label="Next products">›</button>
+                </div>
+            </header>
+            <div class="cards-slider">
+                <div class="cardContainer" role="list">
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Chair.png" alt="Comfort Armchair - Premium seating" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Chair</h3>
+                            <div class="meta">
+                                <p class="price">$179</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Light3.jpg" alt="Coffee Table - Living room centerpiece" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Premium Light 3</h3>
+                            <div class="meta">
+                                <p class="price">$129</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur4.jpg" alt="Console Table - Entryway furniture" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 4</h3>
+                            <div class="meta">
+                                <p class="price">$199</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur2.jpg" alt="Bar Stool - Kitchen seating" />
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 2</h3>
+                            <div class="meta">
+                                <p class="price">$59</p>
+                                <button class="add" type="button">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coming Soon Section -->
+        <section class="product-section" id="coming">
+            <header class="section-header">
+                <h2>Coming Soon</h2>
+                <div class="controls">
+                    <button class="prev" aria-label="Previous products">‹</button>
+                    <button class="next" aria-label="Next products">›</button>
+                </div>
+            </header>
+            <div class="cards-slider">
+                <div class="cardContainer" role="list">
+                    <div class="card upcoming" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur8.jpg" alt="Concept Sofa - Upcoming product" />
+                            <p class="coming-soon-badge">Coming Soon</p>
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 8</h3>
+                        </div>
+                    </div>
+                    <div class="card upcoming" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur7.jpg" alt="Minimal Bed - Upcoming product" />
+                            <p class="coming-soon-badge">Coming Soon</p>
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 7</h3>
+                        </div>
+                    </div>
+                    <div class="card upcoming" role="listitem">
+                        <div>
+                            <img src="./Assetes/Fur3.jpg" alt="Nested Tables - Upcoming product" />
+                            <p class="coming-soon-badge">Coming Soon</p>
+                        </div>
+                        <div class="card-body">
+                            <h3>Modern Furniture 3</h3>
+                        </div>
+                    </div>
+                    <div class="card upcoming" role="listitem">
+                        <div>
+                            <img src="./Assetes/Light4.jpg" alt="Accent Chair - Upcoming product" />
+                            <p class="coming-soon-badge">Coming Soon</p>
+                        </div>
+                        <div class="card-body">
+                            <h3>Premium Light 4</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div id="footerContact">
+            <label>Email us</label> <br>
+            <input type="text" placeholder="Enter Your Email"><br>
+            <button>Send</button>
+        </div>
+        <div id="footerlinks">
+            <h2>Visit Us</h2>
+            <div>
+                <img src="./Assetes/facebook-brands-solid-full.svg" alt="Facebook">
+                <img src="./Assetes/instagram-brands-solid-full.svg" alt="Instagram">
+                <img src="./Assetes/x-twitter-brands-solid-full.svg" alt="Twitter">
+            </div>
+        </div>
+        <img src="./Assetes/logo.png" alt="Furniture Store Logo">
+    </footer>
+
+
+
+
+    <script>
+        // Enhanced slider control: scrolls by visible width (shows ~4 cards)
+        document.querySelectorAll('.product-section').forEach(section => {
+            const slider = section.querySelector('.cardContainer');
+            const prev = section.querySelector('.prev');
+            const next = section.querySelector('.next');
+            if (!slider || !prev || !next) return;
+            
+            const scrollBy = () => slider.clientWidth - 20;
+            
+            next.addEventListener('click', () => {
+                slider.scrollBy({ left: scrollBy(), behavior: 'smooth' });
+            });
+            
+            prev.addEventListener('click', () => {
+                slider.scrollBy({ left: -scrollBy(), behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>

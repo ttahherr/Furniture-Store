@@ -69,7 +69,7 @@ nav #links a:hover{
     width: 30px;
 }
 
-#btn button{
+#btn a{
     all: unset;
     margin: 0 5px;
     border-radius: 15px;
@@ -80,7 +80,7 @@ nav #links a:hover{
     border-bottom: 4px #b16f2d solid;
     border-radius: 12px;
 }
-#btn button:hover{
+#btn a:hover{
     border-bottom: 5px solid rgb(6, 6, 6);
     font-weight: bold;
     font-size: 22px;
