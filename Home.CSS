@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80vh;
+    background-color:#cda984;
+    padding: 15px 0;
+}
+header h1{
+    width: 30%;
+    font-size: 48px;
+    font-weight: 700;
+}
+#hedaerContent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img{
+    position: relative;
+    top: 10%;
+    height: auto;
+    width: 42vw;
+    border-radius: 20px;
+    transition: .3s;
+}
+header img:hover{
+    transform: scaleX(1.2);
+}
+nav{
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav #links{
+    margin-left: 7%;
+}
+nav #links a{
+    all: unset;
+    margin: 0 5px;
+    border-radius: 15px;
+    padding: 7px 25px;
+    transition: .5s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav #links a:hover{
+    border-bottom: 5px solid rgb(6, 6, 6);
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#btn{
+    position: absolute;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#btn img{
+    width: 30px;
+}
+
+#btn a{
+    all: unset;
+    margin: 0 5px;
+    border-radius: 15px;
+    padding: 7px 25px;
+    transition: .5s;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 4px #b16f2d solid;
+    border-radius: 12px;
+}
+#btn a:hover{
+    border-bottom: 5px solid rgb(6, 6, 6);
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#hero{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    gap: 50px;
+    background-color: #ededed;
+}
+
+#heroContent{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+} 
+#heroContent h1{
+    font-size: 48px;
+    margin: 0;
+}
+#heroContent h4{
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+#heroContent a{
+    all: unset;
+    border: 2px solid rgb(126, 124, 124);
+    border-radius: 20px;
+    padding: 7px 18px;
+    font-size: 21px;
+    font-weight: 500;
+    transition: .8s;
+}
+#heroContent a:hover{
+    background-color: #8e5227;
+    color:black;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 800;
+}
+#heroImages{
+    position: relative;
+    left: 7%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#heroImages img{
+    width: 17vw;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+#hero img:hover
+{
+    border-bottom: solid 7px #c4c4c4;
+    border-radius: 20px;
+    padding: 15px;
+    transform: translateY(-20px);
+}
+
+main{
+    background-color:#ededed;
+    height: 80vh;
+    padding-left: 12%;
+}
+
+#aboutus{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+
+#aboutuscontent h1:nth-child(1) , 
+#aboutuscontent p:nth-child(2){
+    position: relative;
+    left: 9%;
+}
+#aboutuscontent p:nth-child(2){
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+#aboutuscardcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    margin-top: 25px;
+    position: relative;
+    left: 100px;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 15px;
+    height: 25vh;
+}
+
+.card img{
+    width: 10%;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card p{
+    font-size: 20px;
+}
+
+#aboutusimg{
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+    left: -14%;
+    top: 70px;
+    transition: .7s;
+}
+#aboutusimg:hover{
+    scale: 1.1;
+}
+footer{
+    background-color: #cda984;
+    height: 35vh;
+    padding: 50px 20px 15px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#footerlinks div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#footerContact{
+    position: relative;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#footerContact label{
+    font-size: 28px;
+    font-weight: 700;
+}
+#footerContact input{
+    all: unset;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 5px;
+    width: 35%;
+}
+button{
+    all: unset;
+    padding: 8px 8px;
+    background-color: rgb(57, 57, 254);
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 49%;
+    transition: .7s;
+}
+footer button:hover{
+    color: white;
+    font-weight: 300;
+    width: 55px;
+    cursor: pointer;
+}
+#footerlinks{
+    width: 80px;
+    position: relative;
+    left: 10%;
+}
+#footerlinks div img{
+    width: 30px;
+    transition: .4s;
+}
+footer img{
+    width: 201px;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    transition: .7s
+}
+
+footer img:hover{
+    scale: 1.5;
+    cursor: pointer;
+}
